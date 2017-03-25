@@ -1,0 +1,17 @@
+uuid: 8b842c4d-9b68-4c27-936c-6d5f1ad649fc
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Meme
+type: meme
+description: 'Generates a possibly humourous combination of image and text'
+help: ''
+new_revision: false
+preview_mode: 0
+display_submitted: false

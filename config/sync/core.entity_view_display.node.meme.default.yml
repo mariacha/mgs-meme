@@ -1,0 +1,41 @@
+uuid: 672b31a4-8ab1-47ba-99d8-6149f2321fcc
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.meme.field_bottom
+    - field.field.node.meme.field_image
+    - field.field.node.meme.field_top
+    - node.type.meme
+  module:
+    - image
+    - user
+id: node.meme.default
+targetEntityType: node
+bundle: meme
+mode: default
+content:
+  field_bottom:
+    weight: 2
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+  field_image:
+    weight: 1
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+  field_top:
+    weight: 0
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+hidden:
+  links: true

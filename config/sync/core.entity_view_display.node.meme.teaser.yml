@@ -1,0 +1,17 @@
+uuid: c9cd4e87-5181-42a2-8691-09b64c550843
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - node.type.meme
+  module:
+    - user
+id: node.meme.teaser
+targetEntityType: node
+bundle: meme
+mode: teaser
+content:
+  links:
+    weight: 100
+hidden: {  }
