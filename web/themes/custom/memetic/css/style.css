@@ -1,0 +1,30 @@
+.node--type-meme {
+    background: #000;
+    text-align: center;
+    font-family: Impact;
+    color: #FFF;
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+    font-size: 40px;
+    position: relative;
+    width: 480px;
+}
+
+.node--type-meme .field--type-image {
+    float: none;
+    margin: 0;
+}
+
+.node--type-meme .field--type-image img {
+    display: block;
+    margin: 0;
+}
+.field--name-field-top, .field--name-field-bottom {
+    position: absolute;
+    width: 100%;
+}
+.field--name-field-top {
+    top:0;
+}
+.field--name-field-bottom {
+    bottom: 0;
+}

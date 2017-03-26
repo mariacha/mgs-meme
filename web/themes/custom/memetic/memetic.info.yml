@@ -1,0 +1,10 @@
+name: Memetic
+type: theme
+description: This is a meme-friendly sub-theme of Bartik
+core: 8.x
+# Defines the base theme
+base theme: bartik
+# Defines libraries group in which we can add css/js.
+libraries:
+  - memetic/global-styling
+
