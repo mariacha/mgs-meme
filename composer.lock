@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "9498bda8e94ae94fbce1341a5ac2bfd6",
-    "content-hash": "4c91aa54a1a69f288b76f36d9e50ecf2",
+    "hash": "df35e09e9a26449b04b62045c2a3154d",
+    "content-hash": "37d84d0b6ce0ec808c28c08648ac0e07",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -1504,11 +1504,17 @@
         },
         {
             "name": "drupal/migrate_google_sheets",
-            "version": "dev-1.x",
+            "version": "1.0.0-beta1",
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/migrate_google_sheets",
-                "reference": "68196b963da477fd740a5a3f99af3fe0732e83fd"
+                "reference": "8.x-1.0-beta1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/migrate_google_sheets-8.x-1.0-beta1.zip",
+                "reference": "8.x-1.0-beta1",
+                "shasum": "16151b915be2e7adb9bbf09a8839012715ddb6dc"
             },
             "require": {
                 "drupal/core": "~8.0",
@@ -1526,8 +1532,8 @@
                     "dev-1.x": "1.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-1.x-dev",
-                    "datestamp": "1483565343"
+                    "version": "8.x-1.0-beta1",
+                    "datestamp": "1483566242"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
@@ -1560,8 +1566,7 @@
             "support": {
                 "source": "http://cgit.drupalcode.org/migrate_google_sheets",
                 "issues": "https://www.drupal.org/project/issues/migrate_google_sheets"
-            },
-            "time": "2016-08-16 20:19:34"
+            }
         },
         {
             "name": "drupal/migrate_plus",
@@ -1574,7 +1579,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://ftp.drupal.org/files/projects/migrate_plus-8.x-3.0-beta1.zip",
-                "reference": null,
+                "reference": "8.x-3.0-beta1",
                 "shasum": "7bae5c758a432053863b7b19c94fc1b829debf00"
             },
             "require": {
@@ -1627,7 +1632,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://ftp.drupal.org/files/projects/migrate_tools-8.x-3.0-beta1.zip",
-                "reference": null,
+                "reference": "8.x-3.0-beta1",
                 "shasum": "1511d1da1444743fa2defa54a17e62264e8ab836"
             },
             "require": {
@@ -1659,6 +1664,48 @@
             "support": {
                 "source": "http://cgit.drupalcode.org/migrate_tools"
             }
+        },
+        {
+            "name": "drupal/redirect",
+            "version": "dev-1.x",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/redirect",
+                "reference": "3c961df7fc9ee82f62b927b8f9efab1abf2d6e5f"
+            },
+            "require": {
+                "drupal/core": "~8"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.0-alpha4+4-dev",
+                    "datestamp": "1489704483"
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Berdir",
+                    "homepage": "https://www.drupal.org/user/214652"
+                },
+                {
+                    "name": "Dave Reid",
+                    "homepage": "https://www.drupal.org/user/53892"
+                }
+            ],
+            "description": "Allows users to redirect from old URLs to new URLs.",
+            "homepage": "https://www.drupal.org/project/redirect",
+            "support": {
+                "source": "http://cgit.drupalcode.org/redirect"
+            },
+            "time": "2017-03-16 22:55:48"
         },
         {
             "name": "drush/drush",
@@ -6042,7 +6089,7 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "drupal/migrate_google_sheets": 20
+        "drupal/redirect": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,

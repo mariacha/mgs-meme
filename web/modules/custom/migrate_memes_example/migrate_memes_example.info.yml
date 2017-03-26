@@ -1,0 +1,10 @@
+name: migrate_memes_example
+type: module
+description: Migrate Google Sheets Example - Memes
+core: 8.x
+package: Migrate
+dependencies:
+  - migrate_plus
+  - migrate_tools
+  - migrate_google_sheets
+  - redirect
