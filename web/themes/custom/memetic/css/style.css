@@ -1,3 +1,9 @@
+.view-memes .views-row {
+    border-bottom: 1px solid #3b3b3b;
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+}
+
 .node--type-meme {
     background: #000;
     text-align: center;
