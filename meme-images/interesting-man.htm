@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script>
+a=new XMLHttpRequest();
+a.onload=function(){I=JSON.parse(this.responseText);if(window.initData)initData();};
+a.open('get','//imgflip.com/ajax_get_le_data'+(window.img?'?i='+img.id:''),true);
+a.send();
+</script>
+<script>
+var _gaq=_gaq||[];
+_gaq.push(['_setAccount','UA-20041150-5']);
+_gaq.push(['_setDomainName','imgflip.com']);
+_gaq.push(['_setSiteSpeedSampleRate',5]);
+_gaq.push(['_trackPageview']);
+(function(d){
+var ga=d.createElement('script');ga.type='text/javascript';ga.async=true;
+ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+var s=d.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s);
+})(document);
+pwidget_config={publisherKey:"tfb13777dir6080pclj5",gaTrackEvents:!0,gaTrackSocialInteractions:!0,onshare:function(){doneshare=1},copypaste:!1,shareQuote:!1};
+version=597;
+spriteNum=1744;
+IMAGE_DOMAIN='//i.imgflip.com/';
+STATIC_DOMAIN='//s.imgflip.com/';
+mm=0;
+disable_rc=1;
+</script>
+<style>.imgflip-banner-top{width:320px;height:50px;vertical-align:top;}@media(min-width:500px){.imgflip-banner-top{width:468px;height:60px;}}
+@media(min-width:760px){.imgflip-banner-top{width:728px;height:90px;}}
+</style>
+
+<link rel="icon" type="image/png" href="//imgflip.com/favicon02.png"/>
+<link rel="icon" sizes="128x128" href="//imgflip.com/apple-touch-icon.png"/>
+<link rel='stylesheet' href='//s.imgflip.com/v597/style.css' media='screen'/>
+<link rel='stylesheet' href='//s.imgflip.com/v597/m.css' media='screen'/>
+<title>Meme Generator - Imgflip</title>
+<meta name="description" content="Insanely fast, mobile-friendly meme generator. Caption memes or upload your own images to make custom memes"/>
+<meta name="keywords" content="meme generator, meme maker, meme, caption, image macro"/>
+<link rel="dns-prefetch" href="//s.po.st"/>
+
+<style>
+#memewrap div.im{background-image:url(//s.imgflip.com/ms1744.jpg)}</style>
+
+
+</head>
+
+<body class="gray wide">
+
+
+<div id="panelBack">
+
+	<div id="panel">
+		<div id="miniNots" class="nt"></div>
+		<a class="nav" href="/">
+			<div id="logo" alt="Imgflip Logo"></div>
+		</a>
+
+		<div class="nav menu-wrap" id="nav-make">
+			<div id="nav-make-inner" class="menu-btn">Create <small>▼</small></div>
+			<div id="make-list" class="menu">
+				<a class="make-item" href="/memegenerator" title="Meme Generator">
+					<div class="iCaption ni"></div>
+					Caption a Meme or Image
+				</a>
+				<a class="make-item" href="/gifgenerator" title="Video to Animated GIF Maker">
+					<div class="iGif ni"></div>
+					Make a GIF (from video)
+				</a>
+				<a class="make-item" href="/images-to-gif" title="Images to Animated GIF Maker">
+					<div class="iGif ni"></div>
+					Make a GIF (from images)
+				</a>
+				<a class="make-item" href="/piemaker" title="Pie Chart Maker">
+					<div class="iPie ni"></div>
+					Make a Pie Chart
+				</a>
+				<a class="make-item" href="/demotivational_maker" title="Demotivational Poster Maker">
+					<div class="iDemotivational ni"></div>
+					Make a Demotivational
+				</a>
+			</div>
+		</div>
+
+		<div class="nav img-flip" id="iFlip">
+			<svg width=40 height=20 class="rand-arrows" style="margin:16px 0 0">
+			<g transform="scale(.3)">
+				<path class="line" fill="none" stroke="#aaa" stroke-width="8" stroke-linejoin="round" d="M 22 15 l 30 0 l 10 10 m 10 10 l 10 10 l 30 0"/>
+				<path class="arrow" fill="#aaa" d="M 112 45 l 0 -10 l 20 10 l -20 10 l 0 -10"/>
+				<path class="line" fill="none" stroke="#aaa" stroke-width="8" stroke-linejoin="round" d="M 22 45 l 30 0 l 30 -30 l 30 0"/>
+				<path class="arrow" fill="#aaa" d="M 112 15 l 0 -10 l 20 10 l -20 10 l 0 -10"/>
+			</g>
+			</svg>
+			<div class="navTip">Flip Through Images</div>
+		</div>
+
+		<div class="nav menu-wrap" id="userTitle">
+			<div id="uTitle" class="menu-btn">
+				<span id="u-long"></span><small>▼</small>
+			</div>
+			<div id="userMenu" class="menu"></div>
+		</div>
+
+		<div class="clear"></div>
+	</div>
+</div>
+
+<div id="fb-root"></div>
+<div style="font:400 2px/2px impact,impac;opacity:0;position:fixed;">s</div>
+
+<div id="page" class="m">
+	<div id="testline" style="display:none;position:absolute;"></div>
+
+	<div class="head clearfix">
+		<h1>Meme Generator</h1>
+		<h2>The Fastest Meme Generator on the Planet. Easily add text to images or memes.</h2>
+	</div>
+
+	<div class="m mm-main ibox clearfix">
+	<div id="mm-preview-outer">
+
+		
+		<div class="mm-preview">
+			<canvas class="mm-canv"></canvas>
+			<img class="mm-img shadow" alt="meme generator image preview"/>
+		</div>
+	</div
+
+	><div id="mm-settings">
+
+		<div id="mm-show-upload" class="l but">Upload your own image</div>
+		<h4 id="mm-meme-title"></h4>
+
+		<form id="mm-upload" class="ibox" action="/memeAdd" method="post" enctype="multipart/form-data">
+			<input id="mm-upload-file" name="memeFile" type="file"/>
+			<p id="mm-upload-name-wrap">Name: <input name="customName" type="text"/></p>
+			<p>
+				<label>
+					<input id="mm-upload-public" type="checkbox"/>
+					Allow image to be displayed in public template directory
+				</label>
+			</p>
+			<div class="clearfix">
+				<input style="float:left;width:150px" class="l but" type="submit" value="Upload"/>
+				<div style="font-size:12px;margin-left:190px">Uploading a meme? Search below to see if it's already a template</div>
+			</div>
+		</form>
+
+		<div id="mm-tabs" class="clearfix">
+			<div id="memetab" class="mm-tab" title="Top Memes This Month">Popular Memes</div>
+			<div id="mytab" class="mm-tab">My Templates</div>
+			<input id="mm-search" type="search" placeholder="Search all memes"/>
+		</div>
+
+		<div id="sel">
+			<div id="mygen"></div>
+			<div id="memewrap"><div class='im' style='background-position:0px 0' onclick='mm.select(0)' alt='One Does Not Simply Meme' title='Make One Does Not Simply Meme'></div><div class='im' style='background-position:-50px 0' onclick='mm.select(1)' alt='Batman Slapping Robin Meme' title='Make Batman Slapping Robin Meme'></div><div class='im' style='background-position:-100px 0' onclick='mm.select(2)' alt='Ancient Aliens Meme' title='Make Ancient Aliens Meme'></div><div class='im' style='background-position:-150px 0' onclick='mm.select(3)' alt='Futurama Fry Meme' title='Make Futurama Fry Meme'></div><div class='im' style='background-position:-200px 0' onclick='mm.select(4)' alt='X, X Everywhere Meme' title='Make X, X Everywhere Meme'></div><div class='im' style='background-position:-250px 0' onclick='mm.select(5)' alt='The Most Interesting Man In The World Meme' title='Make The Most Interesting Man In The World Meme'></div><div class='im' style='background-position:-300px 0' onclick='mm.select(6)' alt='Waiting Skeleton Meme' title='Make Waiting Skeleton Meme'></div><div class='im' style='background-position:-350px 0' onclick='mm.select(7)' alt='Leonardo Dicaprio Cheers Meme' title='Make Leonardo Dicaprio Cheers Meme'></div><div class='im' style='background-position:-400px 0' onclick='mm.select(8)' alt='First World Problems Meme' title='Make First World Problems Meme'></div><div class='im' style='background-position:-450px 0' onclick='mm.select(9)' alt='Oprah You Get A Meme' title='Make Oprah You Get A Meme'></div><div class='im' style='background-position:-500px 0' onclick='mm.select(10)' alt='Y U No Meme' title='Make Y U No Meme'></div><div class='im' style='background-position:-550px 0' onclick='mm.select(11)' alt='Boardroom Meeting Suggestion Meme' title='Make Boardroom Meeting Suggestion Meme'></div><div class='im' style='background-position:-600px 0' onclick='mm.select(12)' alt='Bad Luck Brian Meme' title='Make Bad Luck Brian Meme'></div><div class='im' style='background-position:-650px 0' onclick='mm.select(13)' alt='Captain Picard Facepalm Meme' title='Make Captain Picard Facepalm Meme'></div><div class='im' style='background-position:-700px 0' onclick='mm.select(14)' alt='Doge Meme' title='Make Doge Meme'></div><div class='im' style='background-position:-750px 0' onclick='mm.select(15)' alt='That Would Be Great Meme' title='Make That Would Be Great Meme'></div><div class='im' style='background-position:-800px 0' onclick='mm.select(16)' alt='Brace Yourselves X is Coming Meme' title='Make Brace Yourselves X is Coming Meme'></div><div class='im' style='background-position:-850px 0' onclick='mm.select(17)' alt='Creepy Condescending Wonka Meme' title='Make Creepy Condescending Wonka Meme'></div><div class='im' style='background-position:-900px 0' onclick='mm.select(18)' alt='But Thats None Of My Business Meme' title='Make But Thats None Of My Business Meme'></div><div class='im' style='background-position:-950px 0' onclick='mm.select(19)' alt='Yall Got Any More Of Meme' title='Make Yall Got Any More Of Meme'></div><div class='im' style='background-position:-1000px 0' onclick='mm.select(20)' alt='Third World Skeptical Kid Meme' title='Make Third World Skeptical Kid Meme'></div><div class='im' style='background-position:-1050px 0' onclick='mm.select(21)' alt='Success Kid Meme' title='Make Success Kid Meme'></div><div class='im' style='background-position:-1100px 0' onclick='mm.select(22)' alt='Grumpy Cat Meme' title='Make Grumpy Cat Meme'></div><div class='im' style='background-position:-1150px 0' onclick='mm.select(23)' alt='X All The Y Meme' title='Make X All The Y Meme'></div><div class='im' style='background-position:-1200px 0' onclick='mm.select(24)' alt='Matrix Morpheus Meme' title='Make Matrix Morpheus Meme'></div><div class='im' style='background-position:-1250px 0' onclick='mm.select(25)' alt='Black Girl Wat Meme' title='Make Black Girl Wat Meme'></div><div class='im' style='background-position:-1300px 0' onclick='mm.select(26)' alt='Disaster Girl Meme' title='Make Disaster Girl Meme'></div><div class='im' style='background-position:-1350px 0' onclick='mm.select(27)' alt='Star Wars Yoda Meme' title='Make Star Wars Yoda Meme'></div><div class='im' style='background-position:-1400px 0' onclick='mm.select(28)' alt='Dr Evil Laser Meme' title='Make Dr Evil Laser Meme'></div><div class='im' style='background-position:-1450px 0' onclick='mm.select(29)' alt='The Rock Driving Meme' title='Make The Rock Driving Meme'></div><div class='im' style='background-position:-1500px 0' onclick='mm.select(30)' alt='Picard Wtf Meme' title='Make Picard Wtf Meme'></div><div class='im' style='background-position:-1550px 0' onclick='mm.select(31)' alt='Philosoraptor Meme' title='Make Philosoraptor Meme'></div><div class='im' style='background-position:-1600px 0' onclick='mm.select(32)' alt='Face You Make Robert Downey Jr Meme' title='Make Face You Make Robert Downey Jr Meme'></div><div class='im' style='background-position:-1650px 0' onclick='mm.select(33)' alt='Grandma Finds The Internet Meme' title='Make Grandma Finds The Internet Meme'></div><div class='im' style='background-position:-1700px 0' onclick='mm.select(34)' alt='Evil Toddler Meme' title='Make Evil Toddler Meme'></div><div class='im' style='background-position:-1750px 0' onclick='mm.select(35)' alt='Finding Neverland Meme' title='Make Finding Neverland Meme'></div><div class='im' style='background-position:-1800px 0' onclick='mm.select(36)' alt='Third World Success Kid Meme' title='Make Third World Success Kid Meme'></div><div class='im' style='background-position:-1850px 0' onclick='mm.select(37)' alt='Confession Bear Meme' title='Make Confession Bear Meme'></div><div class='im' style='background-position:-1900px 0' onclick='mm.select(38)' alt='Dont You Squidward Meme' title='Make Dont You Squidward Meme'></div><div class='im' style='background-position:-1950px 0' onclick='mm.select(39)' alt='10 Guy Meme' title='Make 10 Guy Meme'></div><div class='im' style='background-position:-2000px 0' onclick='mm.select(40)' alt='Am I The Only One Around Here Meme' title='Make Am I The Only One Around Here Meme'></div><div class='im' style='background-position:-2050px 0' onclick='mm.select(41)' alt='Too Damn High Meme' title='Make Too Damn High Meme'></div><div class='im' style='background-position:-2100px 0' onclick='mm.select(42)' alt='Maury Lie Detector Meme' title='Make Maury Lie Detector Meme'></div><div class='im' style='background-position:-2150px 0' onclick='mm.select(43)' alt='Awkward Moment Sealion Meme' title='Make Awkward Moment Sealion Meme'></div><div class='im' style='background-position:-2200px 0' onclick='mm.select(44)' alt='Skeptical Baby Meme' title='Make Skeptical Baby Meme'></div><div class='im' style='background-position:-2250px 0' onclick='mm.select(45)' alt='Be Like Bill Meme' title='Make Be Like Bill Meme'></div><div class='im' style='background-position:-2300px 0' onclick='mm.select(46)' alt='Laughing Men In Suits Meme' title='Make Laughing Men In Suits Meme'></div><div class='im' style='background-position:-2350px 0' onclick='mm.select(47)' alt='Sparta Leonidas Meme' title='Make Sparta Leonidas Meme'></div><div class='im' style='background-position:-2400px 0' onclick='mm.select(48)' alt='Put It Somewhere Else Patrick Meme' title='Make Put It Somewhere Else Patrick Meme'></div><div class='im' style='background-position:-2450px 0' onclick='mm.select(49)' alt='Say That Again I Dare You Meme' title='Make Say That Again I Dare You Meme'></div><div class='im' style='background-position:-2500px 0' onclick='mm.select(50)' alt='Conspiracy Keanu Meme' title='Make Conspiracy Keanu Meme'></div><div class='im' style='background-position:-2550px 0' onclick='mm.select(51)' alt='Aaaaand Its Gone Meme' title='Make Aaaaand Its Gone Meme'></div><div class='im' style='background-position:-2600px 0' onclick='mm.select(52)' alt='Yo Dawg Heard You Meme' title='Make Yo Dawg Heard You Meme'></div><div class='im' style='background-position:-2650px 0' onclick='mm.select(53)' alt='Aint Nobody Got Time For That Meme' title='Make Aint Nobody Got Time For That Meme'></div><div class='im' style='background-position:-2700px 0' onclick='mm.select(54)' alt='Ill Just Wait Here Meme' title='Make Ill Just Wait Here Meme'></div><div class='im' style='background-position:-2750px 0' onclick='mm.select(55)' alt='Socially Awesome Awkward Penguin Meme' title='Make Socially Awesome Awkward Penguin Meme'></div><div class='im' style='background-position:-2800px 0' onclick='mm.select(56)' alt='Bad Pun Dog Meme' title='Make Bad Pun Dog Meme'></div><div class='im' style='background-position:-2850px 0' onclick='mm.select(57)' alt='Mugatu So Hot Right Now Meme' title='Make Mugatu So Hot Right Now Meme'></div><div class='im' style='background-position:-2900px 0' onclick='mm.select(58)' alt='Steve Harvey Meme' title='Make Steve Harvey Meme'></div><div class='im' style='background-position:-2950px 0' onclick='mm.select(59)' alt='Back In My Day Meme' title='Make Back In My Day Meme'></div><a class='y but' id='allTemplates' href='/memetemplates' title='Blank Meme Templates'>View All Meme Templates (1,000s more...)</a></div>
+		</div>
+
+		<div class="mm-text-boxes"></div>
+
+		<div class="mm-toggle-opts a">More Options ▼</div>
+		<div class="mm-opts">
+			<div><span class="mm-opt mm-add-text l but sml">+ Add Another Textbox</span></div>
+			<div>
+				<div class="mm-opt">
+					Font
+					<select class="mm-font" name="font">
+						<option value="impact">Impact</option>
+						<option value="arial">Arial</option>
+						<option value="comic sans ms">Comic Sans</option>
+					</select>
+				</div>
+			</div>
+			<div><div class="mm-opt">Max Font Size <input class="mm-size" type="number" name="size" value="50" min="1" max="999"/> px</div></div>
+			<div><label class="mm-opt"><input type="checkbox" class="mm-use-shadow" checked/> Font shadow</label></div>
+			<div><label class="mm-opt"><input type="checkbox" class="mm-all-caps" checked/> USE ALL CAPS</label></div>
+			<div><label class="mm-opt"><input type="checkbox" class="mm-toggle-drag" checked/> Enable drag/drop & resize</label></div>
+			<div><label class="mm-opt">
+				<input type="checkbox" class="mm-output-original-resolution"/>
+				Use resolution of original template image, do not resize. Potentially higher quality, but larger filesize.
+			</label></div>
+		</div>
+
+		<div class="gen-wrap clearfix">
+			<div class="gen-login-wrap">
+				Pro-tip: If you <span class="a show-login">Login or Join Imgflip</span>,
+				your captioned memes will be saved in your account
+			</div>
+						<p>
+				<label>
+					<input type="checkbox" class="gen-private" name="private" value="1"/> Private <small>(you'll have to download your image to save or share it)</small>
+				</label>
+			</p>
+						<p class="gen-anon-wrap">
+				<label>
+					<input type="checkbox" class="gen-anon" name="anon" value="1"/>
+						<span>
+							Create Anonymously
+							<span class="tip">If this is checked, your username will not be associated with this image after you create it.</span>
+						</span>
+				</label>
+			</p>
+			<p class="gen-no-watermark-wrap">
+				<label>
+					<input type="checkbox" class="gen-no-watermark" name="no_watermark"/> Remove "imgflip.com" watermark
+				</label>
+			</p>
+			<div class='mm-generate b but'>Generate Meme</div>			<div class="mm-reset reset l but">Reset</div>
+		</div>
+	</div>
+</div>
+	<div id="mm-recs" class="ibox">
+		<h2>Hot Memes Right Now <a href='/?tgz=memes'>↳All Memes</a></h2><a href='/i/1m0b96'><img class='mm-rec' alt='I&#039;m going to just gently flip over this omelette Aaaaand now I&#039;m having scrambled eggs | image tagged in memes,aaaaand its gone | made w/ Imgflip meme maker' src='//i.imgflip.com/2/1m0b96.jpg'/></a><a href='/i/1m0fa2'><img class='mm-rec' alt='WHAT IF I TOLD YOU NOT EVERYONE ON THE BLOCK WANTS TO HEAR YOUR CRAPPY-ASS MUSIC | image tagged in memes,matrix morpheus | made w/ Imgflip meme maker' src='//i.imgflip.com/2/1m0fa2.jpg'/></a><a href='/i/1lzf04'><img class='mm-rec' alt='May the %#$@% force be with you. | R2D2 IS THE MOST VULGAR CHARACTER OF ALL TIME THEY HAD TO BLEEP EVERYTHING HE SAID | image tagged in memes,conspiracy keanu,may the 4th,star wars,r2d2,bacon | made w/ Imgflip meme maker' src='//i.imgflip.com/2/1lzf04.jpg'/></a><a href='/i/1lqzw7'><img class='mm-rec' alt='The hacker was so disappointed about my bank account... ...he started a Go Fund me page. | image tagged in memes,first world stoner problems | made w/ Imgflip meme maker' src='//i.imgflip.com/2/1lqzw7.jpg'/></a><a href='/i/1m0cx2'><img class='mm-rec' alt='Try To Find A Good,                      Productive Hobby Instead | THANK YOU WHOEVER YOU ARE FOR DOWNVOTING MY FRONT PAGE MEME BACK TO RESUBMIT | image tagged in memes,black girl wat,downvotes,back to submit,have a good day | made w/ Imgflip meme maker' src='//i.imgflip.com/2/1m0cx2.jpg'/></a><a href='/i/1lwjh1'><img class='mm-rec' alt='WHEN THOMAS EDISON THOUGH OF THE LIGHTBULB DID A CANDLE APPEAR ABOVE HIS HEAD? | image tagged in memes,philosoraptor | made w/ Imgflip meme maker' src='//i.imgflip.com/2/1lwjh1.jpg'/></a>	</div>
+
+	<div id="generator-qa" class="ibox">
+		<h2>What is the Meme Generator?</h2>
+		<p>It's a free online image maker that allows you to add custom resizable text to images.
+			It operates in HTML5 if supported, so your images are created instantly.
+			Most commonly, people use the generator to add text captions to established <a href="http://en.wikipedia.org/wiki/Meme">memes</a>,
+			so technically it's more of a meme "captioner" than a meme maker.
+			However, you can also upload your own images as templates.</p>
+		<h2>How can I customize my meme?</h2>
+		<ul>
+			<li>You can move and resize the text boxes by dragging them around. If you're on a mobile device,
+				you may have to first check "enable drag/drop" in the More Options section.
+			<li>You can customize the font color, outline color, and outline width just to the right
+				of where you type your text.
+			<li>You can further customize the font and add additional text boxes in the More Options
+				section.
+			<li>You can rotate your meme, add scumbag hats or other custom images, and draw on your meme
+				using the panel just above the meme preview image.
+		</ul>
+		<h2>Why is there an "imgflip.com" watermark on my memes?</h2>
+		<p>
+			The Imgflip watermark helps other people find where the meme was created, so they can make memes too!
+			However, if you'd really like to, you can remove our watermark from all images you create, as well as remove ads and supercharge
+			your image creation abilities, using <a href="/pro?from=mfaq_watermark">Imgflip Pro</a>.
+		</p>
+
+	</div>
+
+</div>
+
+<script>
+usermemeID=0;memes=[{"id":61579,"name":"One Does Not Simply","w":568,"h":335,"altNames":"one does not simply walk into morder, lord of the rings boromir","positions":"","url_name":"One-Does-Not-Simply"},{"id":438680,"name":"Batman Slapping Robin","w":400,"h":387,"altNames":"","positions":"[[14,4,175,74],[223,5,168,72]]","url_name":"Batman-Slapping-Robin"},{"id":101470,"name":"Ancient Aliens","w":500,"h":437,"altNames":"Giorgio Tsoukalos, History Channel Guy","positions":"","url_name":"Ancient-Aliens"},{"id":61520,"name":"Futurama Fry","w":552,"h":414,"altNames":"Not sure if X or Y, Skeptical Fry","positions":"","url_name":"Futurama-Fry"},{"id":347390,"name":"X, X Everywhere","w":500,"h":381,"altNames":"dicks everywhere, woody and buzz lightyear pointing, toy story","positions":"","url_name":"X-Everywhere"},{"id":61532,"name":"The Most Interesting Man In The World","w":550,"h":690,"altNames":"I dont always... but when I do, Dos Equis Man","positions":"","url_name":"The-Most-Interesting-Man-In-The-World"},{"id":4087833,"name":"Waiting Skeleton","w":298,"h":403,"altNames":"skeleton waiting on bench in the park","positions":"","url_name":"Waiting-Skeleton"},{"id":5496396,"name":"Leonardo Dicaprio Cheers","w":600,"h":400,"altNames":"The Great Gatsby party with Jay Gatsby","positions":"","url_name":"Leonardo-Dicaprio-Cheers"},{"id":61539,"name":"First World Problems","w":552,"h":367,"altNames":"fwp, woman crying","positions":"","url_name":"First-World-Problems"},{"id":28251713,"name":"Oprah You Get A","w":620,"h":465,"altNames":"oprah giveway, oprah winfrey, oprah you get a car, everyone gets a car, you get an oprah, oprah excited","positions":"","url_name":"Oprah-You-Get-A"},{"id":61527,"name":"Y U No","w":500,"h":500,"altNames":"","positions":"","url_name":"Y-U-No"},{"id":1035805,"name":"Boardroom Meeting Suggestion","w":500,"h":649,"altNames":"throw a guy out the boardroom window","positions":"[[\"150\",\"4\",\"307\",\"57\",\"38\"],[\"18\",\"236\",\"113\",\"42\",\"37\"],[\"156\",\"246\",\"94\",\"38\",\"34\"],[\"300\",\"250\",\"147\",\"59\",\"38\"]]","url_name":"Boardroom-Meeting-Suggestion"},{"id":61585,"name":"Bad Luck Brian","w":475,"h":562,"altNames":"","positions":"","url_name":"Bad-Luck-Brian"},{"id":1509839,"name":"Captain Picard Facepalm","w":500,"h":324,"altNames":"star trek face palm","positions":"","url_name":"Captain-Picard-Facepalm"},{"id":8072285,"name":"Doge","w":620,"h":620,"altNames":"Shiba Inu","positions":"[[\"45\",\"41\",\"251\",\"54\",\"47\"],[\"332\",\"129\",\"234\",\"55\",\"32\"],[\"289\",\"323\",\"223\",\"55\",\"30\"],[\"17\",\"496\",\"244\",\"50\",\"44\"],[\"372\",\"526\",\"223\",\"55\",\"36\"]]","url_name":"Doge"},{"id":563423,"name":"That Would Be Great","w":526,"h":440,"altNames":"Bill Lumbergh, office space, yea that'd be great","positions":"","url_name":"That-Would-Be-Great"},{"id":61546,"name":"Brace Yourselves X is Coming","w":622,"h":477,"altNames":"imminent ned from game of thrones, brace yourselves winter is coming, brace yourself","positions":"","url_name":"Brace-Yourselves-X-is-Coming"},{"id":61582,"name":"Creepy Condescending Wonka","w":550,"h":545,"altNames":"willy wonka stare","positions":"","url_name":"Creepy-Condescending-Wonka"},{"id":16464531,"name":"But Thats None Of My Business","w":600,"h":600,"altNames":"Kermit the frog, kermit drinking lipton iced tea","positions":"","url_name":"But-Thats-None-Of-My-Business"},{"id":13424299,"name":"Yall Got Any More Of","w":306,"h":240,"altNames":"Dave Chapelle, Chapelles show","positions":"","url_name":"Yall-Got-Any-More-Of"},{"id":101288,"name":"Third World Skeptical Kid","w":426,"h":426,"altNames":"African skeptical child","positions":"","url_name":"Third-World-Skeptical-Kid"},{"id":61544,"name":"Success Kid","w":500,"h":500,"altNames":"","positions":"","url_name":"Success-Kid"},{"id":405658,"name":"Grumpy Cat","w":500,"h":617,"altNames":"","positions":"","url_name":"Grumpy-Cat"},{"id":61533,"name":"X All The Y","w":500,"h":355,"altNames":"all the things","positions":"","url_name":"X-All-The-Y"},{"id":100947,"name":"Matrix Morpheus","w":500,"h":303,"altNames":"what if I told you","positions":"","url_name":"Matrix-Morpheus"},{"id":14230520,"name":"Black Girl Wat","w":599,"h":626,"altNames":"confused black girl, black girl with hand out, seriously black girl","positions":"","url_name":"Black-Girl-Wat"},{"id":97984,"name":"Disaster Girl","w":500,"h":375,"altNames":"","positions":"","url_name":"Disaster-Girl"},{"id":14371066,"name":"Star Wars Yoda","w":620,"h":714,"altNames":"master yoda","positions":"","url_name":"Star-Wars-Yoda"},{"id":40945639,"name":"Dr Evil Laser","w":500,"h":405,"altNames":"Dr. Evil quotation marks, Dr Evil Air Quotes","positions":"","url_name":"Dr-Evil-Laser"},{"id":21735,"name":"The Rock Driving","w":568,"h":700,"altNames":"","positions":"[[317,30,240,120],[331,262,230,107]]","url_name":"The-Rock-Driving"},{"id":245898,"name":"Picard Wtf","w":500,"h":350,"altNames":"captain jean-luc picard star trek, annoyed picard, why the fuck would you","positions":"","url_name":"Picard-Wtf"},{"id":61516,"name":"Philosoraptor","w":500,"h":500,"altNames":"green dinosaur","positions":"","url_name":"Philosoraptor"},{"id":9440985,"name":"Face You Make Robert Downey Jr","w":460,"h":523,"altNames":"","positions":"","url_name":"Face-You-Make-Robert-Downey-Jr"},{"id":61556,"name":"Grandma Finds The Internet","w":640,"h":480,"altNames":"","positions":"","url_name":"Grandma-Finds-The-Internet"},{"id":235589,"name":"Evil Toddler","w":500,"h":332,"altNames":"evil baby","positions":"","url_name":"Evil-Toddler"},{"id":6235864,"name":"Finding Neverland","w":423,"h":600,"altNames":"Johnny Depp And Little Kid Crying","positions":"[[\"4\",\"157\",\"415\",\"45\",\"37\"],[\"5\",\"332\",\"413\",\"75\",\"37\"],[\"5\",\"521\",\"413\",\"68\",\"37\"]]","url_name":"Finding-Neverland"},{"id":101287,"name":"Third World Success Kid","w":500,"h":500,"altNames":"happy african child","positions":"","url_name":"Third-World-Success-Kid"},{"id":100955,"name":"Confession Bear","w":460,"h":480,"altNames":"","positions":"","url_name":"Confession-Bear"},{"id":101511,"name":"Dont You Squidward","w":500,"h":333,"altNames":"spongebob","positions":"","url_name":"Dont-You-Squidward"},{"id":101440,"name":"10 Guy","w":500,"h":454,"altNames":"Really High Guy, Stoner Stanley, Brainwashed Bob","positions":"","url_name":"10-Guy"},{"id":259680,"name":"Am I The Only One Around Here","w":500,"h":348,"altNames":"Angry Walter from The Big Lebowski","positions":"","url_name":"Am-I-The-Only-One-Around-Here"},{"id":61580,"name":"Too Damn High","w":420,"h":316,"altNames":"The rent is too damn high","positions":"","url_name":"Too-Damn-High"},{"id":444501,"name":"Maury Lie Detector","w":381,"h":378,"altNames":"The lie detector determined that was a lie. The fact that you X determined that was a lie. Maury Povich.","positions":"","url_name":"Maury-Lie-Detector"},{"id":13757816,"name":"Awkward Moment Sealion","w":620,"h":397,"altNames":"awkward seal, uncomfortable situation sealion, heavy breathing sealion","positions":"","url_name":"Awkward-Moment-Sealion"},{"id":101711,"name":"Skeptical Baby","w":253,"h":260,"altNames":"","positions":"","url_name":"Skeptical-Baby"},{"id":56225174,"name":"Be Like Bill","w":913,"h":907,"altNames":"bill the stick figure with a hat","positions":"[[\"26\",\"31\",\"544\",\"211\",\"62\"],[\"26\",\"255\",\"544\",\"208\",\"70\"],[\"26\",\"466\",\"544\",\"193\",\"70\"],[\"26\",\"662\",\"545\",\"198\",\"70\"]]","url_name":"Be-Like-Bill"},{"id":922147,"name":"Laughing Men In Suits","w":500,"h":333,"altNames":"Men laughing, And then I said, And then I told them, rich men laughing","positions":"","url_name":"Laughing-Men-In-Suits"},{"id":195389,"name":"Sparta Leonidas","w":500,"h":264,"altNames":"Leonidas from the movie 300","positions":"","url_name":"Sparta-Leonidas"},{"id":61581,"name":"Put It Somewhere Else Patrick","w":343,"h":604,"altNames":"patrick from spongebob","positions":"","url_name":"Put-It-Somewhere-Else-Patrick"},{"id":124212,"name":"Say That Again I Dare You","w":393,"h":330,"altNames":"Samuel L Jackson, pulp fiction","positions":"","url_name":"Say-That-Again-I-Dare-You"},{"id":61583,"name":"Conspiracy Keanu","w":551,"h":549,"altNames":"","positions":"","url_name":"Conspiracy-Keanu"},{"id":766986,"name":"Aaaaand Its Gone","w":500,"h":281,"altNames":"and it's gone, south park banker guy","positions":"","url_name":"Aaaaand-Its-Gone"},{"id":101716,"name":"Yo Dawg Heard You","w":500,"h":323,"altNames":"Xzibit, Yo dawg we heard you like Y so we put some X in your X so you can Y while you Y","positions":"","url_name":"Yo-Dawg-Heard-You"},{"id":442575,"name":"Aint Nobody Got Time For That","w":500,"h":281,"altNames":"","positions":"","url_name":"Aint-Nobody-Got-Time-For-That"},{"id":109765,"name":"Ill Just Wait Here","w":491,"h":550,"altNames":"waiting skeleton","positions":"[[\"6\",\"168\",\"479\",\"100\",\"37\"],[\"6\",\"444\",\"479\",\"90\",\"37\"]]","url_name":"Ill-Just-Wait-Here"},{"id":61584,"name":"Socially Awesome Awkward Penguin","w":576,"h":577,"altNames":"","positions":"","url_name":"Socially-Awesome-Awkward-Penguin"},{"id":12403754,"name":"Bad Pun Dog","w":575,"h":1200,"altNames":"joke dog, whisper joke dog, happy husky, joke telling husky, pun husky","positions":"[[\"5\",\"201\",\"563\",\"165\",\"44\"],[\"5\",\"564\",\"563\",\"107\",\"44\"],[\"5\",\"1032\",\"563\",\"150\",\"44\"]]","url_name":"Bad-Pun-Dog"},{"id":21604248,"name":"Mugatu So Hot Right Now","w":620,"h":497,"altNames":"Mugatu from Zoolander, Will Farrell","positions":"","url_name":"Mugatu-So-Hot-Right-Now"},{"id":143601,"name":"Steve Harvey","w":500,"h":280,"altNames":"","positions":"","url_name":"Steve-Harvey"},{"id":718432,"name":"Back In My Day","w":259,"h":310,"altNames":"grumpy old man pointing","positions":"","url_name":"Back-In-My-Day"}];sfw=1;</script>
+
+<div id="footer">
+	<div id="footer-nav">
+		<a href="/pro?from=footer">Imgflip Pro</a>
+		<a href="/gifgenerator">Video to GIF Maker</a>
+		<a href="/images-to-gif">Images to GIF Maker</a>
+		<a href="/memegenerator">Meme Generator</a>
+		<a href="/memetemplates">Blank Meme Templates</a>
+		<a href="/piemaker">Pie Chart Maker</a>
+		<a href="/demotivational_maker">Demotivational Poster Maker</a>
+		<a href="/about">About</a>
+		<a href="/privacy">Privacy</a>
+		<a href="/terms">Terms</a>
+		<a href="//api.imgflip.com">API</a>
+		<a href="/request_removal">Request Image Removal</a>
+	</div>
+	<div id="findUs">
+		<a id="on-fb" href="https://www.facebook.com/imgflip">Facebook</a>
+		<a id="on-tw" href="https://twitter.com/imgflip">Twitter</a>
+	</div>
+	<div id="footline">Empowering creativity on teh interwebz<br/>Imgflip LLC 2017</div>
+
+	</div>
+
+	<!--[if lt IE 9]>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<![endif]--><!--[if gte IE 9]><!-->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<![endif]-->
+	<script src='//s.imgflip.com/v597/common.js'></script>
+<script src='//s.imgflip.com/v597/m.js'></script><script>
+	$(function(){
+
+mm = new MemeMaker(memes, {
+	numTexts: 2
+});
+mm.init();
+mm.initPopMemes();
+
+mm.select(0);		webkitWarn("Imgflip Meme Generator");
+		memeInit();
+	});
+</script>
+
+</body>
