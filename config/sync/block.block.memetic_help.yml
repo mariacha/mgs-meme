@@ -1,0 +1,22 @@
+uuid: 209d2d81-45b2-48fc-8533-6b99b799e23b
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - memetic
+_core:
+  default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
+id: memetic_help
+theme: memetic
+region: content
+weight: -30
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

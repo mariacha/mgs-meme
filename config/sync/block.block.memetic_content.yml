@@ -1,0 +1,22 @@
+uuid: 412a39d8-b3fa-47a5-9338-f996a3e6c163
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - memetic
+_core:
+  default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
+id: memetic_content
+theme: memetic
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

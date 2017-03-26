@@ -1,17 +1,43 @@
 uuid: c9cd4e87-5181-42a2-8691-09b64c550843
 langcode: en
-status: true
+status: false
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
+    - field.field.node.meme.field_bottom
+    - field.field.node.meme.field_image
+    - field.field.node.meme.field_top
+    - image.style.large
     - node.type.meme
   module:
+    - image
     - user
 id: node.meme.teaser
 targetEntityType: node
 bundle: meme
 mode: teaser
 content:
-  links:
-    weight: 100
-hidden: {  }
+  field_bottom:
+    type: string
+    weight: 2
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+  field_image:
+    type: image
+    weight: 1
+    label: hidden
+    settings:
+      image_style: large
+      image_link: ''
+    third_party_settings: {  }
+  field_top:
+    type: string
+    weight: 0
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+hidden:
+  links: true
